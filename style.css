@@ -21,3 +21,14 @@ tbody tr:nth-child(odd) {
 	background-color:  lightgreen;}
 tbody tr:nth-child(even) {
 	background-color:  lightblue;}
+
+dt:hover + dd {
+	background-color: purple;}
+
+form, input {
+	border: 1px solid black;}
+
+p {
+	padding-left:1em;}
+p:first-child {
+	font-weight: bold;}
