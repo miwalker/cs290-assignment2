@@ -1,10 +1,13 @@
 table {
+	border: 1px solid black;
 	text-align: left;
-	border: 1px solid black;}
+}
 
-th, td {
+th, 
+td {
+	border: 1px solid black;
 	width: 7em;
-	border: 1px solid black;}
+}
 
 th:first-child {
 	font-style: italic;
@@ -12,34 +15,48 @@ th:first-child {
 }
 
 tbody td:nth-child(2) {
-	color: red;}
+	color: red;
+}
+
 tbody td:nth-child(4) {
-	color: blue;}
+	color: blue;
+}
 
 
 tbody tr:nth-child(odd) {
-	background-color:  lightgreen;}
+	background-color:  lightgreen;
+}
+
 tbody tr:nth-child(even) {
-	background-color:  lightblue;}
+	background-color:  lightblue;
+}
 
 dt:hover + dd {
-	background-color: purple;}
+	background-color: purple;
+}
 
-form, input {
-	border: 1px solid black;}
+form, 
+input {
+	border: 1px solid black;
+}
 
 p {
-	padding-left:1em;}
+	padding-left:1em;
+}
+
 form p:first-child {
-	font-weight: bold;}
+	font-weight: bold;
+}
 
 .outer-container {
+	background-color: pink;
 	margin-top: 20px;
 	width: 75%;
-	background-color: pink;}
+}
 
 .inner-container {
-	width: 75%;
-	margin: auto;
 	background-color: lightblue;
-	text-align: center;}
+	margin: auto;
+	text-align: center;
+	width: 75%;
+}
