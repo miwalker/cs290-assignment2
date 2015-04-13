@@ -30,5 +30,16 @@ form, input {
 
 p {
 	padding-left:1em;}
-p:first-child {
+form p:first-child {
 	font-weight: bold;}
+
+.outer-container {
+	margin-top: 20px;
+	width: 75%;
+	background-color: pink;}
+
+.inner-container {
+	width: 75%;
+	margin: auto;
+	background-color: lightblue;
+	text-align: center;}
